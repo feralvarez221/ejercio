@@ -1,2 +1,2 @@
-# ejercio
+# ejercicio
 aprender a usar github
