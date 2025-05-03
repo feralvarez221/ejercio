@@ -1,0 +1,17 @@
+tupla_inven = ("dorito", "mineral", "aguacate", "gomitas", "mineral", "naranja", "dorito", "helado", "dorito")
+
+doritos = tupla_inven.count("dorito")
+print(doritos)
+
+aguacate = tupla_inven.index("aguacate")
+print(aguacate)
+
+lista_tupla = list(tupla_inven)
+
+lista_tupla[aguacate] = "kiwi"
+
+lista_tupla.pop(6)
+
+tupla_final = tuple(lista_tupla)
+
+print(f"inventario actualizado {tupla_final}")
